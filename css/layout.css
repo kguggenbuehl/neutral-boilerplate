@@ -1,0 +1,50 @@
+/* =global layout
+--------------------------------------------------------------- */
+.wrapper {
+	border: 2px solid black;
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	}
+	
+/* =header
+--------------------------------------------------------------- */
+.header {
+	background-color: #9cf; /* blue */
+	}
+
+/* =content
+--------------------------------------------------------------- */
+.container {
+	float: right;
+	width: 80%;
+	background-color: #ededed; /* grey */
+	}
+.main {
+	float: left;
+	width: 80%;
+	background-color: #9f9; /* green */
+	}
+	
+/* =sidebar
+--------------------------------------------------------------- */
+.sidebar {
+	float: right;
+	width: 20%;
+	background-color: #ff6; /* yellow */
+	}
+	
+/* =nav
+--------------------------------------------------------------- */
+.mainnav {
+	float: left;
+	width: 20%;
+	background-color: #f99; /* red */
+	}
+
+/* =footer
+--------------------------------------------------------------- */
+.footer {
+	clear: both;
+	background-color: #c9f; /* violet */
+	}
